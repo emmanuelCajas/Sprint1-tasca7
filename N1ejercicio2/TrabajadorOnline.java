@@ -14,6 +14,9 @@ public class TrabajadorOnline extends Trabajador  {
 		return super.calcularSueldo(horasTrabajdas)+TARIFA_INTERNET;
 	}
 	
+	/**
+	 * Metodo deprecated por que ya no se utiliza, esto es una prueba.
+	 */
 	@Deprecated
 	public void imprimirMensaje() {
 		System.out.println("Mensaje de metodo @Deprecade imprimirMensaje()");
